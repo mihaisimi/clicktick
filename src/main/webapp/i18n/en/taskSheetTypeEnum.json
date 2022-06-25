@@ -1,0 +1,9 @@
+{
+  "clicktickApp": {
+    "TaskSheetTypeEnum": {
+      "null": "",
+      "REGULAR": "REGULAR",
+      "POMODORO": "POMODORO"
+    }
+  }
+}

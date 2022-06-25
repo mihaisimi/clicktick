@@ -1,0 +1,10 @@
+{
+  "clicktickApp": {
+    "TaskStateEnum": {
+      "null": "",
+      "TODO": "TODO",
+      "DOING": "DOING",
+      "MISSED": "MISSED"
+    }
+  }
+}

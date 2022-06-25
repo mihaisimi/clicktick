@@ -1,0 +1,64 @@
+{
+  "applications": ["clicktick"],
+  "changelogDate": "20220625150446",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "task_sheet",
+  "fields": [
+    {
+      "fieldName": "brand",
+      "fieldType": "TaskSheetTypeEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "REGULAR,POMODORO"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "completed",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "workMinutes",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "workPause",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "The Car. We are hashing the keyFrequencyHere",
+  "jpaMetamodelFiltering": false,
+  "name": "TaskSheet",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "task",
+      "otherEntityRelationshipName": "taskSheet",
+      "relationshipName": "task",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "customer",
+      "otherEntityRelationshipName": "taskSheet",
+      "relationshipName": "owner",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

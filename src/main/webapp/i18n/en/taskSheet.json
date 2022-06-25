@@ -1,0 +1,33 @@
+{
+  "clicktickApp": {
+    "taskSheet": {
+      "home": {
+        "title": "Task Sheets",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Sheet",
+        "createOrEditLabel": "Create or edit a Task Sheet",
+        "notFound": "No Task Sheets found"
+      },
+      "created": "A new Task Sheet is created with identifier {{ param }}",
+      "updated": "A Task Sheet is updated with identifier {{ param }}",
+      "deleted": "A Task Sheet is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Sheet {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Sheet"
+      },
+      "id": "ID",
+      "brand": "Brand",
+      "name": "Name",
+      "comment": "Comment",
+      "active": "Active",
+      "completed": "Completed",
+      "date": "Date",
+      "workMinutes": "Work Minutes",
+      "workPause": "Work Pause",
+      "task": "Task",
+      "owner": "Owner"
+    }
+  }
+}

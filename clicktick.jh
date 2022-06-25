@@ -1,0 +1,81 @@
+
+application {
+  config {
+    baseName clicktick,
+    packageName com.startup.clicktick,
+    applicationType monolith,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    devDatabaseType mysql,
+    clientFramework react,
+    serverPort 8095,
+    testFrameworks [protractor]
+  }
+  entities *
+  paginate * with pagination
+}
+
+
+/**
+ * The Customer.
+ */
+entity Customer {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	ewalletAmmount Long
+    address String,
+    city String,
+    countryCode String,
+}
+
+
+/**
+ * The Car. We are hashing the keyFrequencyHere
+ */
+entity TaskSheet {
+	brand TaskSheetTypeEnum required,
+    name String,
+    comment String,
+    active Boolean,
+    completed Boolean,
+    date Instant,
+    workMinutes Integer,
+    workPause Integer
+}
+
+entity Task{
+   state TaskStateEnum,
+   name String,
+   description String,
+   externalId String
+}
+
+enum TaskSheetTypeEnum{
+    REGULAR,
+    POMODORO
+}
+
+enum TaskStateEnum{
+    TODO,
+    DOING,
+    MISSED
+}
+
+
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+    Customer{taskSheet} to TaskSheet{owner}
+    TaskSheet{task} to Task{taskSheet}
+}
+
+relationship OneToOne {
+    Customer{user(login) required} to User
+}
+
+

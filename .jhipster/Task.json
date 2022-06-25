@@ -1,0 +1,40 @@
+{
+  "applications": ["clicktick"],
+  "changelogDate": "20220625150546",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "task",
+  "fields": [
+    {
+      "fieldName": "state",
+      "fieldType": "TaskStateEnum",
+      "fieldValues": "TODO,DOING,MISSED"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "externalId",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Task",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "taskSheet",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "taskSheet",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
