@@ -1,3 +1,3 @@
 id;brand;name;comment;active;completed;date;work_minutes;work_pause
 1;POMODORO;Daily Work;This is my daily work routine;true;false;2022-06-26T19:12:44;25;5
-2;POMODORO;Good Habits;This is to keep my house clean;true;false;2022-06-26T16:34:43;8793;45;15
+2;POMODORO;Good Habits;This is to keep my house clean;true;false;2022-06-26T16:34:43;45;15

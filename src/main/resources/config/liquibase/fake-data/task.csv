@@ -1,13 +1,13 @@
-id;state;name;description;external_id;task_sheet_id;
-1;DONE;Emails;Read and respond to emails;1;1
-2;DONE;Daily Meeting;Daily standup meeting with the team;2;1
-3;DOING;Talk with customers;Dedicated to customers;3;1
-4;TODO;Address team problems;Dedicated to team problems;4;1
-5;TODO;Team problems;Dedicated to team problems;5;1
-6;TODO;Code;Dedicated to coding;6;1
-7;DONE;Dishes;Wash the dishes;1;2
-8;DONE;Vaacum;Vaacum;2;2
-9;DOING;Sport;Do some sport;3;2
-10;TODO;Read;Reading is exercise for the brain;4;2
+id;state;name;description;external_id
+1;DONE;Emails;Read and respond to emails;1
+2;DONE;Daily Meeting;Daily standup meeting with the team;2
+3;DOING;Talk with customers;Dedicated to customers;3
+4;TODO;Address team problems;Dedicated to team problems;4
+5;TODO;Team problems;Dedicated to team problems;5
+6;TODO;Code;Dedicated to coding;6
+7;DONE;Dishes;Wash the dishes;1
+8;DONE;Vaacum;Vaacum;2
+9;DOING;Sport;Do some sport;3
+10;TODO;Read;Reading is exercise for the brain;4
 
 
