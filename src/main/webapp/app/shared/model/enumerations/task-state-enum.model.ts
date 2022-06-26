@@ -4,4 +4,6 @@ export enum TaskStateEnum {
   DOING = 'DOING',
 
   MISSED = 'MISSED',
+
+  DONE = 'DONE'
 }

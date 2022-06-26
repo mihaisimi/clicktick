@@ -63,7 +63,8 @@ enum TaskSheetTypeEnum{
 enum TaskStateEnum{
     TODO,
     DOING,
-    MISSED
+    MISSED,
+    DONE
 }
 
 

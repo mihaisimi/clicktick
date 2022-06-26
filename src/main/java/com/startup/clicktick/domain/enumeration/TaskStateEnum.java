@@ -7,4 +7,5 @@ public enum TaskStateEnum {
     TODO,
     DOING,
     MISSED,
+    DONE
 }

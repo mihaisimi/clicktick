@@ -1,11 +1,13 @@
-id;state;name;description;external_id
-1;MISSED;open-source Intelligent;Walk deposit Washington;Chair Supervisor
-2;TODO;morph South;Frozen Central circuit;state Wisconsin withdrawal
-3;MISSED;Home Pizza synthesizing;optical Squares optical;Shilling Movies
-4;MISSED;Applications;recontextualize Fantastic Re-contextualized;programming
-5;MISSED;architectures Plastic Engineer;matrix Dynamic Technician;Legacy THX
-6;TODO;Expanded;Borders;Refined compressing
-7;TODO;parse York;Vision-oriented;Colombian Bike
-8;DOING;navigate;24/7;Developer Paradigm Kroon
-9;DOING;compressing heuristic Franc;reintermediate Investor intangible;Designer coherent
-10;TODO;mesh;auxiliary attitude Costa;invoice real-time withdrawal
+id;state;name;description;external_id;task_sheet_id;
+1;DONE;Emails;Read and respond to emails;1;1
+2;DONE;Daily Meeting;Daily standup meeting with the team;2;1
+3;DOING;Talk with customers;Dedicated to customers;3;1
+4;TODO;Address team problems;Dedicated to team problems;4;1
+5;TODO;Team problems;Dedicated to team problems;5;1
+6;TODO;Code;Dedicated to coding;6;1
+7;DONE;Dishes;Wash the dishes;1;2
+8;DONE;Vaacum;Vaacum;2;2
+9;DOING;Sport;Do some sport;3;2
+10;TODO;Read;Reading is exercise for the brain;4;2
+
+

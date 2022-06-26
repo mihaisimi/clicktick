@@ -8,7 +8,7 @@
     {
       "fieldName": "state",
       "fieldType": "TaskStateEnum",
-      "fieldValues": "TODO,DOING,MISSED"
+      "fieldValues": "TODO,DOING,MISSED,DONE"
     },
     {
       "fieldName": "name",
