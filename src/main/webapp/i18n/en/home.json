@@ -1,19 +1,19 @@
 {
   "home": {
-    "title": "Welcome, Java Hipster!",
-    "subtitle": "This is your homepage",
+    "title": "Welcome to ClickTik!",
+    "subtitle": "The fanTASKtik way to organise tasks",
     "logged": {
       "message": "You are logged in as user \"{{username}}\"."
     },
-    "question": "If you have any question on JHipster:",
+    "question": "If you have any question:",
     "link": {
-      "homepage": "JHipster homepage",
-      "stackoverflow": "JHipster on Stack Overflow",
-      "bugtracker": "JHipster bug tracker",
-      "chat": "JHipster public chat room",
-      "follow": "follow @jhipster on Twitter"
+      "homepage": "ClickTik homepage",
+      "stackoverflow": "ClickTik on Stack Overflow",
+      "bugtracker": "ClickTik bug tracker",
+      "chat": "ClickTik public chat room",
+      "follow": "follow @ClickTik on Twitter"
     },
-    "like": "If you like JHipster, don't forget to give us a star on",
+    "like": "If you like ClickTik, don't forget to give us a star on",
     "github": "GitHub"
   }
 }

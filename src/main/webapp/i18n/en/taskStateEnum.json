@@ -4,7 +4,8 @@
       "null": "",
       "TODO": "TODO",
       "DOING": "DOING",
-      "MISSED": "MISSED"
+      "MISSED": "MISSED",
+      "DONE": "DONE"
     }
   }
 }
