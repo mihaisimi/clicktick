@@ -10,7 +10,7 @@ Developement Ribbon
 Navbar styles
 ========================================================================== */
 .jh-navbar {
-  background-color: #ffba53;
+  background-image: linear-gradient(to left bottom, #ffba53, #ffba9d, #ffcddd, #ffe8ff, #ffffff);
   padding: 0.2em 1em;
   .profile-image {
     margin: -10px 0px;
@@ -78,7 +78,7 @@ Navbar styles
 
 .brand-title {
   font-size: 24px;
-  color: $header-color;
+  color: black;
   &:hover {
     color: $header-color-hover;
     text-decoration: none;
